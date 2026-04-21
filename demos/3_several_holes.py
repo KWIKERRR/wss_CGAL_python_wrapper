@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from weighted_straight_skeleton import compute_straight_skeleton
 from utils import ensure_clockwise, ensure_counterclockwise, load_off_file, visualize_mesh
 
